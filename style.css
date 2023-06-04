@@ -1,0 +1,90 @@
+.parent {
+  text-align: center;
+  position: relative;
+}
+.image1 {
+}
+.image2 {
+position: absolute;
+top: 1600px;
+left: 0;
+}
+
+.image3 {
+  position: absolute;
+    top: 27%;
+    left: 0;
+
+    animation: blink 0.5s infinite;
+}  
+    @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+.mid{
+  padding-top: 87%;
+  text-align: center;
+  position: relative;
+}
+
+.image5{
+  position: absolute;
+    top: 45%;
+    left: 0;
+    animation: blink 0.5s infinite;
+  }  
+      @keyframes blink {
+          0% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+
+ .image6{
+  position: absolute;
+  top: 88%;
+  left: 20%;
+
+  animation: blink 1.5s infinite;
+}  
+    @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+.hover-effect {
+  padding-left: 3%;
+  padding-top: 2000px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  }
+  
+.hover-effect:hover {
+    opacity: 0.3;
+    transform: scale(1.1);
+  }
+
+.footer {
+  padding-top: 180px;
+
+}
